@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tomlion/vim-solidity'
+Plugin 'posva/vim-vue'
 Plugin 'sbdchd/neoformat'
 call vundle#end()
 filetype plugin indent on
@@ -17,7 +18,7 @@ syntax on
 
 set autoindent
 set autoread
-set colorcolumn=80
+"set colorcolumn=80
 set encoding=utf-8
 set expandtab
 set fileencoding=utf-8
